@@ -1,5 +1,5 @@
-{
-	"name": "country-finder",
+{	
+    "name": "country-finder",
     "image": "country-finder:latest", 
     "settings": {
         "terminal.integrated.shell.linux": "/bin/bash"
