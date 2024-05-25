@@ -1,15 +1,13 @@
 {
 	"name": "country-finder",
-    "image": "country-finder:latest", // Replace with your Docker image name and tag
+    "image": "country-finder:latest", 
     "settings": {
         "terminal.integrated.shell.linux": "/bin/bash"
     },
     "extensions": [
-        // List VSCode extensions you want installed in the container
         "ms-python.python"
     ],
     "containerEnv": {
-        // Add environment variables from your .env file
         "geoapify_api_key": "b9bb21cfdeff45cf8de46bf3de2a16ca"
     }
 }
